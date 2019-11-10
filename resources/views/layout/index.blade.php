@@ -255,7 +255,100 @@
 
 
 
-
+<div class="colorlib-tour colorlib-light-grey">
+		@foreach($diadiem as $dd)
+			<div class="tour-wrap">
+				@foreach($nhanghi as $nn)
+					@if($nn->diadiem_id == $diadiem->id)
+					@foreach($phong as $p)
+					@if($p->nhanghi_id == $nhanghi->id)
+				<a href="#" class="tour-entry animate-box fadeInUp animated-fast">
+					<div class="tour-img" style="background-image: url(images/tour-1.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span></p>
+						<h2>{{$nn ->tennhanghi}}</h2>
+						<span class="city">Athens, Greece</span>
+						<span class="price">$450</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box fadeInUp animated-fast">
+					<div class="tour-img" style="background-image: url(images/tour-2.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> </p>
+						<h2>{{$nn ->tennhanghi}}</h2>
+						<span class="city">Athens, Greece</span>
+						<span class="price">$450</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box fadeInUp animated-fast">
+					<div class="tour-img" style="background-image: url(images/tour-3.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> </p>
+						<h2>Family Tour in Philippines</h2>
+						<span class="city">Lipa, Philippines</span>
+						<span class="price">$450</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box fadeInUp animated-fast">
+					<div class="tour-img" style="background-image: url(images/tour-4.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> </p>
+						<h2>Family Tour in Greece</h2>
+						<span class="city">Athens, Greece</span>
+						<span class="price">$450</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box fadeInUp animated-fast">
+					<div class="tour-img" style="background-image: url(images/tour-5.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> </p>
+						<h2>Family Tour in Greece</h2>
+						<span class="city">Athens, Greece</span>
+						<span class="price">$450</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box fadeInUp animated-fast">
+					<div class="tour-img" style="background-image: url(images/tour-6.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> </p>
+						<h2>Family Tour in Greece</h2>
+						<span class="city">Athens, Greece</span>
+						<span class="price">$450</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box fadeInUp animated-fast">
+					<div class="tour-img" style="background-image: url(images/tour-7.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> </p>
+						<h2>Family Tour in Greece</h2>
+						<span class="city">Athens, Greece</span>
+						<span class="price">$450</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box fadeInUp animated-fast">
+					<div class="tour-img" style="background-image: url(images/tour-8.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> </p>
+						<h2>Family Tour in Greece</h2>
+						<span class="city">Athens, Greece</span>
+						<span class="price">$450</span>
+					</span>
+				</a>
+					@endif
+					@endforeach
+					@endif
+					@endforeach
+			</div>
+			@endforeach
+		</div>
 
 
 		<footer id="colorlib-footer" role="contentinfo">
